@@ -13,7 +13,7 @@ module Facter
                  desc: 'The location of the config file.'
 
     class_option :custom_dir,
-                 type: :string,
+                 type: :array,
                  desc: 'A directory to use for custom facts.'
 
     class_option :debug,
@@ -22,7 +22,7 @@ module Facter
                  desc: 'Enable debug output.'
 
     class_option :external_dir,
-                 type: :string,
+                 type: :array,
                  desc: 'A directory to use for external facts.'
 
     class_option :help,
